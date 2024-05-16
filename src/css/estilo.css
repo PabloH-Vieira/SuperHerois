@@ -46,3 +46,52 @@ body{
 #menu ul li a:hover{
     border-bottom: 3px solid #433bd1;
 }
+
+.curiosidades{
+    margin-top: 25vh;
+    color: white;
+    text-align: center;
+}
+
+.curiosidades h3{
+    padding: 10px;
+}
+
+.contato{
+    margin-top: 10vh;
+    color: white;
+    text-align: center;
+}
+
+.contato h3{
+    padding: 10px;
+}
+
+.contato input{
+    margin-top: 2vh;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.contato button{
+    margin-top: 2vh;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #D80000;
+    color: white;
+    font-size: 1rem;
+    border: none;
+}
+
+.contato button:hover{
+    background-color: #881111;
+}
+
+footer{
+    background-color: #D80000;
+    color: white;
+    margin-top: 15vh;
+    padding: 20px;
+    text-align: center;
+}
