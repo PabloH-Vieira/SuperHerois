@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 body{
@@ -51,6 +50,24 @@ body{
     margin-top: 25vh;
     color: white;
     text-align: center;
+    height: 50vh;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.curiosidades #curiosidades-bg{
+    z-index: 1;
+    opacity: 20%;
+    max-width: 100%;
+    position:absolute
+}
+
+.curiosidades #curiosidadestxt{
+    color: white;
+    position: absolute;
+    z-index: 100;
 }
 
 .curiosidades h3{
@@ -58,7 +75,7 @@ body{
 }
 
 .contato{
-    margin-top: 10vh;
+    margin-top: 20vh;
     color: white;
     text-align: center;
 }
