@@ -2,16 +2,47 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #111119;
 }
 
 #banner{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 5rem;
 }
 
 #banner img {
     max-width: 100%;
     height: auto;
     display: block;
+}
+
+
+#menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+}
+
+#menu ul li a{
+    color: #0A0382;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#menu ul li img{
+    width: 15%;
+}
+
+
+#menu ul li a:hover{
+    border-bottom: 3px solid #433bd1;
 }
